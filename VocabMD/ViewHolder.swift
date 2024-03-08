@@ -10,12 +10,12 @@ import SwiftUI
 struct ViewHolder: View {
     var body: some View {
         TabView {
-            Text("Learn Screen")
+            LearnView()
                 .tabItem {
                     Image(systemName: "lightbulb.fill")
                     Text("Learn")
             }
-            Text("Word Set Screen")
+            WordListView()
                 .tabItem {
                     Image(systemName: "character.book.closed.fill")
                     Text("Words")
